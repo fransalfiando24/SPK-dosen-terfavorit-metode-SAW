@@ -39,6 +39,9 @@
     else if ($_GET["p"] == "perengkingan") {
         include "perengkingan.php";
     }
+    else if ($_GET["p"] == "logout") {
+        include "logout.php";
+    }
     else{
         include "home.php";
     }

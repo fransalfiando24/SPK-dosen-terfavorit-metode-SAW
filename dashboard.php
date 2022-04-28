@@ -5,7 +5,7 @@
 ?>
 
 <div class="dashboard">
-    <a href=""><div class="logout">Logout</div></a> 
+    <a href="<?php echo "?p=logout"?>"><div class="logout">Logout</div></a> 
     <img src="img/avatar.png" alt="" class="avatar">  
     <p><?php echo "$ra[namalengkap]"?></p><br>
     <div class="box-container">
